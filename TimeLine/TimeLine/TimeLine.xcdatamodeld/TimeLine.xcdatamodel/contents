@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Automatic">
+    <entity name="Event">
+        <attribute name="cid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cprice" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ctime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ctype" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <userInfo/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="261" positionY="189" width="128" height="135"/>
+    </elements>
+</model>

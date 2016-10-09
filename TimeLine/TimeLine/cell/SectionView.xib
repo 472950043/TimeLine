@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SectionView" customModule="TimeLine" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="evz-Pn-wHZ">
+                    <rect key="frame" x="159" y="0.0" width="2" height="44"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jwp-eg-tIx">
+                            <rect key="frame" x="0.0" y="0.0" width="2" height="22"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Giz-iB-oai">
+                            <rect key="frame" x="0.0" y="22" width="2" height="22"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Giz-iB-oai" firstAttribute="height" secondItem="evz-Pn-wHZ" secondAttribute="height" multiplier="0.5" id="6B5-7X-MGY"/>
+                        <constraint firstItem="jwp-eg-tIx" firstAttribute="height" secondItem="evz-Pn-wHZ" secondAttribute="height" multiplier="0.5" id="Cv9-D8-ZxX"/>
+                        <constraint firstItem="jwp-eg-tIx" firstAttribute="top" secondItem="evz-Pn-wHZ" secondAttribute="top" id="GqL-XU-r8h"/>
+                        <constraint firstAttribute="trailing" secondItem="Giz-iB-oai" secondAttribute="trailing" id="Kca-Hk-4XB"/>
+                        <constraint firstAttribute="trailing" secondItem="jwp-eg-tIx" secondAttribute="trailing" id="MQ3-Wf-BsU"/>
+                        <constraint firstItem="Giz-iB-oai" firstAttribute="leading" secondItem="evz-Pn-wHZ" secondAttribute="leading" id="QxV-fo-IIf"/>
+                        <constraint firstAttribute="width" constant="2" id="ejG-zr-bB1"/>
+                        <constraint firstItem="jwp-eg-tIx" firstAttribute="leading" secondItem="evz-Pn-wHZ" secondAttribute="leading" id="hoM-Sp-KBQ"/>
+                        <constraint firstAttribute="bottom" secondItem="Giz-iB-oai" secondAttribute="bottom" id="qJD-mZ-L5q"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x5W-yM-kE7">
+                    <rect key="frame" x="157" y="19" width="6" height="6"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="6" id="doC-Xa-3Og"/>
+                        <constraint firstAttribute="height" constant="6" id="ebv-GE-H44"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0yk-bd-669">
+                    <rect key="frame" x="15" y="0.0" width="127" height="44"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.57647058819999997" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="0yk-bd-669" secondAttribute="bottom" id="1Eo-jS-wJx"/>
+                <constraint firstItem="evz-Pn-wHZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3U8-1N-r8m"/>
+                <constraint firstItem="x5W-yM-kE7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ngt-aZ-Yau"/>
+                <constraint firstAttribute="bottom" secondItem="evz-Pn-wHZ" secondAttribute="bottom" id="OU2-Bc-auD"/>
+                <constraint firstItem="0yk-bd-669" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eH6-Wl-1Rn"/>
+                <constraint firstItem="x5W-yM-kE7" firstAttribute="leading" secondItem="0yk-bd-669" secondAttribute="trailing" constant="15" id="fXC-fR-30p"/>
+                <constraint firstItem="0yk-bd-669" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="kSt-xW-qeL"/>
+                <constraint firstItem="evz-Pn-wHZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="kjJ-64-egu"/>
+                <constraint firstItem="x5W-yM-kE7" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="rC9-dh-uxf"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bottomLine" destination="Giz-iB-oai" id="leo-j4-pOn"/>
+                <outlet property="round" destination="x5W-yM-kE7" id="Xos-6b-y2U"/>
+                <outlet property="time" destination="0yk-bd-669" id="c9V-BI-FLg"/>
+                <outlet property="topLine" destination="jwp-eg-tIx" id="qGY-Ex-H05"/>
+            </connections>
+        </view>
+    </objects>
+</document>
